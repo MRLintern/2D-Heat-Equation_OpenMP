@@ -21,9 +21,13 @@ OpenMP comes with `gcc/g++` and `gfortran` so there is no need to install anythi
 
 ## Running the Application
 
-  *`$ git clone https://github.com/MRLintern/2D-Heat-Equation_OpenMP.git`
-  *`$ make`
-  *`./2D_Heat
+  * `$ git clone http://github/MRLintern/2D-Heat-Equation_OpenMP.git`
+  * `$ make`
+  * `$ ./2D_Heat`
+
+## TODO
+
+This application is very much in its infancy. It needs to sorted into a "proper project structure", including things like unit tests, a better Makefile for building the whole project and reorganising the source code into header files where appropriate. e.g., separate functions into header files thus increasing readability. It will also prove interesting to allow the user to set the required number of threads. Once this has been done, we could make plots of performance of the application (e.g. time and speed) against the number of iterations perfomed.
   
   
   
