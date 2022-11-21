@@ -5,15 +5,15 @@
 
 ## Scenario
 
-the north (top) plate has a temperature of 0 deg. celsius
-the rest of the plate-sides have temperatures of 100 deg. celsius
+The north (top) plate has a temperature of 0 deg. celsius
+The rest of the plate-sides have temperatures of 100 deg. celsius
 
-                              I = 0
-                  [0][0]-------------[0][N-1]
+                            I = 0
+               [0][0]------------------[0][N-1]
                     |                  |
              J = 0  |                  |  J = N-1
                     |                  |
-              [M-1][0]---------------- [M-1][N-1]
+             [M-1][0]------------------[M-1][N-1]
               
                             I = M-1
                             
