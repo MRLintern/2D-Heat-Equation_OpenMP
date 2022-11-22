@@ -18,10 +18,10 @@ The rest of the plate-sides have temperatures of 100 deg. celsius
               
                             I = M-1
                             
-this diagram will prove very useful so refer to it.
-solution to the heat-equation:
+This diagram will prove very useful so refer to it.
+Solution to the heat-equation:
 
-      `W(Central) = (1/4)*[W(North] + w[South] + w[East] + w[West])`
+      w(Central) = (1/4)*([w(North] + w[South] + w[East] + w[West])
 
 ## Operating System
 `Ubuntu 20.04`
@@ -47,7 +47,21 @@ OpenMP comes with `gcc/g++` and `gfortran` so there is no need to install anythi
 
 ## TODO
 
-This application is very much in its infancy. It needs to sorted into a "proper project structure", including things like unit tests, a better Makefile for building the whole project and reorganising the source code into header files where appropriate. e.g., separate functions into header files thus increasing readability. It will also prove interesting to allow the user to set the required number of threads. Once this has been done, we could make plots of performance of the application (e.g. time and speed) against the number of iterations perfomed.
+This application is very much in its infancy. Other things to consider:
+
+  * Develop a proper project structure. E.g. `bin`, `build`, `src` and `test` directories.
+  * With the above in mind, extend and improve the `Makefile`.
+  * Organise the code where appropriate into header files for example for better readability.
+  * Create `unit tests`, a vital part of any Software Engineering project.
+  * Allow the user to specify the number of `threads` they want to use.
+  * Consider varying the number of threads used and investigate things like `time` and `speed-up`.
+
+
+
+
+
+
+
   
   
   
