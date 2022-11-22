@@ -5,33 +5,8 @@ The heat distribution is modeled via the steady-state 2D heat equation.
 The resulting system of algebraic equations is solved by parallelising
 the iterative solver via the OpenMP API.
 
-
-Scenario
---------
-
-the north (top) plate has a temperature of 0 deg. celsius
-the rest of the plate-sides have temperatures of 100 deg. celsius
-
-
-                    I = 0
-
-          [0][0]-------------[0][N-1]
-             |                  |
-      J = 0  |                  |  J = N-1
-             |                  |
-        [M-1][0]-----------[M-1][N-1]
-
-                    I = M-1
-
-
-this diagram will prove very useful so refer to it.
-
-solution to the heat-equation:
-
-W(Central) = (1/4)*[W(North] + w[South] + w[East] + w[West])
-
-
 */
+
 //libraries
 #include<stdlib.h>
 #include<stdio.h>
