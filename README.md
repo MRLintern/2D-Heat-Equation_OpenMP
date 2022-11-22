@@ -27,7 +27,7 @@ Solution to the heat-equation:
 `Ubuntu 20.04`
 
 ## Text Editor
-`Visual Studio Code`
+Any Text Editor will do but I've used `Visual Studio Code`. `Vim`, `gedit`, `Emacs` etc.
 
 ## Compiler
 `gcc/g++ 9.4.0`
