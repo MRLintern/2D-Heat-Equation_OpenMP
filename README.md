@@ -47,14 +47,13 @@ OpenMP comes with `gcc/g++` and `gfortran` so there is no need to install anythi
 
 ## TODO
 
-This application is very much in its infancy. Other things to consider:
+Other things to do:
 
-  * Develop a proper project structure. E.g. `bin`, `build`, `src` and `test` directories.
-  * With the above in mind, extend and improve the `Makefile`. E.g. `bin` and `build` are created on running `make`.
-  * Organise the code where appropriate into header files for example for better readability.
-  * Create `unit tests`, a vital part of any Software Engineering project.
+  
+  
+  * Save results to a file: e.g. `.csv` or `.dat` for plotting results. 
   * Allow the user to specify the number of `threads` they want to use.
-  * Consider varying the number of threads used and investigate things like `time` and `speed-up`.
+  * Consider varying the number of threads used and investigate things like `time` and `speed-up` with increasing iterations.
 
 
 
