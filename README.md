@@ -53,7 +53,7 @@ Other things to do:
   
   * Save results to a file: e.g. `.csv` or `.dat` for plotting results. 
   * Allow the user to specify the number of `threads` they want to use.
-  * Consider varying the number of threads used and investigate things like `time` and `speed-up` with increasing iterations.
+  
 
 
 
