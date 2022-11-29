@@ -45,15 +45,6 @@ OpenMP comes with `gcc/g++` and `gfortran` so there is no need to install anythi
   * `$ make`
   * `$ ./2D_Heat`
 
-## TODO
-
-Other things to do:
-
-  
-  
-  * Save results to a file: e.g. `.csv` or `.dat` for plotting results. 
-  * Allow the user to specify the number of `threads` they want to use.
-  
 
 
 
