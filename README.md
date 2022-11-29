@@ -46,7 +46,10 @@ OpenMP comes with `gcc/g++` and `gfortran` so there is no need to install anythi
   * `$ ./2D_Heat`
 
 
+## Additions
 
+Added some data and plots showing speed-up and efficiency of code.
+Also, data and plot added to investigate how different optimisation flags effect the speed-up.
 
 
 
