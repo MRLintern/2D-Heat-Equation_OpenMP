@@ -38,11 +38,16 @@ int main(int argc, char *argv[]) {
     double w[M][N];
     //wall/clock time; how long did it take
     double wtime;
-
+    /*
     printf("\n");
     printf("The iteration will be repeated until the change is <= %e\n", tolerance); 
     printf("Number of processors available = %d\n", omp_get_num_procs());
     printf("Number of threads =              %d\n", omp_get_max_threads());
+    */
+    
+    //Varied number of threads to investigate speed-Up
+    omp_set_dynamic(0); //no dynamic teams
+    omp_set_num_threads(1); //use 1 thread
 
     mean = 0.0;
 
