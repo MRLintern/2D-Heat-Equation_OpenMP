@@ -36,7 +36,7 @@ Any Text Editor will do but I've used `Visual Studio Code`. `Vim`, `gedit`, `Ema
 OpenMP is typically used for loop-level parallelism, but it also supports function-level parallelism.
 In this project, OpenMP is used to parallelise the iterator. By using multithreading, we are able to achive
 faster speeds while iterating through the loop structures, thus obtain a solution/heat distribution of a plate
-more quickly than we would via a sequential programming.
+more quickly than we would via sequential programming.
 OpenMP comes with `gcc/g++` and `gfortran` so there is no need to install anything.
 
 ## Running the Application
