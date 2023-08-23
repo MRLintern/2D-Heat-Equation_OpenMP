@@ -7,6 +7,8 @@ The actual file can be found at:
 
     https://github.com/zedshaw/learn-c-the-hard-way-lectures/blob/master/ex19/dbg.h
 
+    However, I haven't made use of them.
+
 */
 
 #ifndef __dbg_h__
